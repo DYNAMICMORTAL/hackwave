@@ -40,13 +40,13 @@ body {
     font-weight: 400;
     font-family: "Pirata One", cursive;
 }
-/* .noticeBoardActualImage {
+.noticeBoardActualImage {
     position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 70vw;
-} */
+}
 
 
 .slider {
