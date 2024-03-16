@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Outfit:wght@100..900&family=Pirata+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -10,4 +11,16 @@ body {
     background-image: url('assets/images/night_ship_admin.jpg');
     background-size:auto;
     background-repeat: no-repeat;
+}
+.navbar {
+    margin-left: 1em;
+    margin-top: 0.5em;
+    letter-spacing: 1.8px;
+}
+
+.hackwave {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: "Pirata One", cursive;
 }
