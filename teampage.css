@@ -40,3 +40,64 @@ body {
     font-weight: 400;
     font-family: "Pirata One", cursive;
 }
+.noticeBoardActualImage {
+    position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70vw;
+}
+
+
+
+
+
+
+
+/* .noticeboard {
+    position: relative;
+    overflow: hidden;
+  } */
+  
+  /* .noticeBoardImage {
+    background-image: url('assets/images/your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+  } */
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  .slider-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .slider-nav button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .slide-content {
+    position: absolute;
+    bottom: 0;
+    font-size: 100px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+  }
+  
