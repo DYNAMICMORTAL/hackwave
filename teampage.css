@@ -132,3 +132,10 @@ img{
     z-index: 100;
     font-size: 3.5em;
 }
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
