@@ -40,64 +40,54 @@ body {
     font-weight: 400;
     font-family: "Pirata One", cursive;
 }
-.noticeBoardActualImage {
+/* .noticeBoardActualImage {
     position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 70vw;
+} */
+
+
+.slider {
+    z-index: 10000000;
+    color: #fff;
+}
+.slider .slide{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10rem;
+}
+.slider .slide p{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
 }
 
-
-
-
-
-
-
-/* .noticeboard {
-    position: relative;
-    overflow: hidden;
-  } */
-  
-  /* .noticeBoardImage {
-    background-image: url('assets/images/your-background-image.jpg');
-    background-size: cover;
-    background-position: center;
-  } */
-  
-  .slider {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  
-  .slide {
-    flex: 0 0 100%;
-  }
-  
-  .slider-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .slider-nav button {
-    background: transparent;
+.slider .slide span{
+    font-size: 0.8rem;
+}
+.slider-dots .dots{
+    list-style-type: none;
+    display: flex!important;
+    justify-content: center;
+}
+.slider-dots{
+    margin-top: 3rem;
+}
+.slider-dots button{
+    font-size: 0;
+    width: 8px;
+    height: 5px;
+    margin-right: 0.3rem;
     border: none;
-    font-size: 24px;
+    outline: none;
+    background: grey;
+    border-radius: 50px;
     cursor: pointer;
-  }
-  
-  .slide-content {
-    position: absolute;
-    bottom: 0;
-    font-size: 100px;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
-  }
-  
+}
+.dots li.slick-active button{
+    background: white;
+    width: 45px;
+}
