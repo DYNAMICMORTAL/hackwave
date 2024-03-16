@@ -13,9 +13,25 @@ body {
     background-repeat: no-repeat;
 }
 .navbar {
-    margin-left: 1em;
+    position: relative;
+    margin-left: 1.5em;
     margin-top: 0.5em;
     letter-spacing: 1.8px;
+    user-select: none;
+}
+.navbar a{
+    z-index: 10000;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bannerImage {
+    z-index: 100;
+    position: absolute;
+  top: -80%;
+  left: 50%;
+  transform: translate(-50%, 0);
+    max-width: 32vw;
 }
 
 .hackwave {
